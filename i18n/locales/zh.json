@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "download": "下载"
+  },
+  "hero": {
+    "title": "让 AI Agent 触手可及",
+    "subtitle": "ClawMate 是 OpenClaw 的桌面管理软件，将强大的开源 AI Agent 框架变得简单易用。告别命令行，拥抱图形化。",
+    "cta": "立即下载"
+  },
+  "features": {
+    "title": "核心特色",
+    "install": {
+      "title": "一键安装",
+      "desc": "告别命令行，点击按钮即可完成 OpenClaw 安装和初始化，零门槛上手。"
+    },
+    "config": {
+      "title": "可视化配置",
+      "desc": "大模型、智能体、技能、通讯工具、沙箱，全部图形化管理，一目了然。"
+    },
+    "chat": {
+      "title": "AI 对话",
+      "desc": "内置聊天界面，直接与智能体对话，支持多会话管理与图片输入。"
+    },
+    "market": {
+      "title": "技能市场",
+      "desc": "搜索、安装、管理技能，一键启用，让智能体能力持续扩展。"
+    },
+    "messaging": {
+      "title": "通讯集成",
+      "desc": "飞书、QQ、Telegram、Slack、Discord、微信，统一配置管理。"
+    },
+    "sandbox": {
+      "title": "安全沙箱",
+      "desc": "Docker 沙箱可视化配置，权限精细控制，安全运行 AI 任务。"
+    }
+  },
+  "download": {
+    "title": "下载 ClawMate",
+    "subtitle": "支持 macOS 和 Windows，即刻开启体验",
+    "mac_silicon": "macOS Apple Silicon",
+    "mac_intel": "macOS Intel",
+    "windows": "Windows",
+    "version": "最新版本"
+  },
+  "payment": {
+    "page_title": "支付结果",
+    "success": "支付成功",
+    "processing": "支付处理中",
+    "desc": "请返回 ClawMate 客户端查看授权状态，授权将自动激活",
+    "back_home": "返回官网首页",
+    "support": "如有问题请联系客服"
+  },
+  "about": {
+    "title": "关于我们",
+    "desc": "星之海工作室，主营自主工具软件开发、销售与技术售后；所有软件均为本工作室独立开发，无第三方内容分发、无用户评论/论坛、无资讯发布，仅提供正版软件下载、功能说明、使用教程、售后咨询服务。",
+    "scope_label": "经营范围：",
+    "scope": "计算机软件开发、软件销售、计算机技术咨询服务",
+    "mode_label": "经营模式：",
+    "mode": "线上研发运营，仅通过本官方网站向客户交付软件产品，不开展线下实体经营活动",
+    "back_home": "返回首页"
+  },
+  "footer": {
+    "copyright": "© 2026 ClawMate. All rights reserved."
+  }
+}

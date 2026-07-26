@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "download": "Download"
+  },
+  "hero": {
+    "title": "AI Agent, Within Reach",
+    "subtitle": "ClawMate is the desktop manager for OpenClaw, making the powerful open-source AI Agent framework simple and accessible. Say goodbye to the command line.",
+    "cta": "Download Now"
+  },
+  "features": {
+    "title": "Core Features",
+    "install": {
+      "title": "One-Click Install",
+      "desc": "Say goodbye to the command line. Install and initialize OpenClaw with a single click."
+    },
+    "config": {
+      "title": "Visual Configuration",
+      "desc": "Manage LLMs, agents, skills, messaging tools, and sandboxes — all in a graphical interface."
+    },
+    "chat": {
+      "title": "AI Chat",
+      "desc": "Built-in chat interface. Talk to agents directly with multi-session and image input support."
+    },
+    "market": {
+      "title": "Skill Market",
+      "desc": "Search, install, and manage skills. Enable them with one click to extend agent capabilities."
+    },
+    "messaging": {
+      "title": "Messaging Integration",
+      "desc": "Feishu, QQ, Telegram, Slack, Discord, WeChat — unified configuration management."
+    },
+    "sandbox": {
+      "title": "Secure Sandbox",
+      "desc": "Visual Docker sandbox configuration with fine-grained permission control for safe AI execution."
+    }
+  },
+  "download": {
+    "title": "Download ClawMate",
+    "subtitle": "Available for macOS and Windows. Start your journey today.",
+    "mac_silicon": "macOS Apple Silicon",
+    "mac_intel": "macOS Intel",
+    "windows": "Windows",
+    "version": "Latest Version"
+  },
+  "payment": {
+    "page_title": "Payment Result",
+    "success": "Payment Successful",
+    "processing": "Payment Processing",
+    "desc": "Please return to the ClawMate app to check your license status. It will be activated automatically.",
+    "back_home": "Back to Home",
+    "support": "If you have any questions, please contact support."
+  },
+  "about": {
+    "title": "About Us",
+    "desc": "Xingzhihai Studio specializes in the development, sales, and technical support of proprietary software tools. All software is independently developed by the Studio. We do not host third-party content, user forums, or news publications. We only provide licensed software downloads, feature documentation, tutorials, and after-sales support.",
+    "scope_label": "Business Scope: ",
+    "scope": "Computer software development, software sales, computer technology consulting services",
+    "mode_label": "Business Model: ",
+    "mode": "Online R&D and operations. Software products are delivered exclusively through this official website. No offline business activities.",
+    "back_home": "Back to Home"
+  },
+  "footer": {
+    "copyright": "© 2026 ClawMate. All rights reserved."
+  }
+}
