@@ -19,8 +19,8 @@
           </defs>
           <text x="300" y="105" text-anchor="middle"
                 class="hero__brand-text"
-                font-family="'Pristina', 'Lucida Calligraphy', 'Apple Chancery', 'Segoe Script', cursive"
-                font-size="115" font-weight="500">ClawMate</text>
+                font-family="'Dancing Script', 'Apple Chancery', 'Segoe Script', cursive"
+                font-size="115" font-weight="600">ClawMate</text>
         </svg>
       </div>
 
