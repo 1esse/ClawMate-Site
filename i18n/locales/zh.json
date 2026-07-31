@@ -3,40 +3,200 @@
     "download": "下载"
   },
   "hero": {
-    "title": "让 AI Agent 触手可及",
-    "subtitle": "ClawMate 是 OpenClaw 的桌面管理软件，将强大的开源 AI Agent 框架变得简单易用。告别命令行，拥抱图形化。",
-    "cta": "立即下载"
+    "title": "让 OpenClaw 触手可及的桌面客户端",
+    "subtitle": "无需注册、不收集任何用户信息、完全在本地运行的 AI 智能体管理软件",
+    "cta": "立即下载",
+    "tag1": "无需注册",
+    "tag2": "本地运行",
+    "tag3": "零数据收集"
   },
-  "features": {
-    "title": "核心特色",
-    "install": {
-      "title": "一键安装",
-      "desc": "告别命令行，点击按钮即可完成 OpenClaw 安装和初始化，零门槛上手。"
+  "clawmate": {
+    "title": "什么是 ClawMate",
+    "desc": "ClawMate 是 OpenClaw 的桌面管理客户端（macOS / Windows），它把 OpenClaw 复杂的命令行和配置文件，转化为直观的图形界面操作：",
+    "positioning_label": "定位",
+    "positioning": "ClawMate 不是另一个 AI 助手，它是 OpenClaw 的「控制面板」。",
+    "features": {
+      "install": {
+        "title": "一键安装运行时",
+        "desc": "一键安装 / 升级 / 卸载 OpenClaw 运行时，告别命令行操作。"
+      },
+      "config": {
+        "title": "可视化管理",
+        "desc": "智能体、模型、技能、插件、MCP 服务器，全部图形化管理。"
+      },
+      "messaging": {
+        "title": "通信渠道配置",
+        "desc": "飞书、Discord、Telegram、Slack、微信等 20+ 通道统一配置。"
+      },
+      "chat": {
+        "title": "实时聊天界面",
+        "desc": "内置流式输出、思考链展示、工具调用可视化，支持多会话管理。"
+      },
+      "automation": {
+        "title": "自动化与记忆",
+        "desc": "会话管理、定时任务、记忆系统、沙箱配置全部图形化。"
+      },
+      "cross_platform": {
+        "title": "跨平台支持",
+        "desc": "macOS、Windows 双平台原生支持，体验一致。"
+      }
+    }
+  },
+  "openclaw": {
+    "title": "什么是 OpenClaw",
+    "desc": "OpenClaw 是一个开源的多通道 AI 智能体网关（Gateway），运行在任何操作系统上，是一个常驻后台的守护进程，具备：",
+    "capabilities": {
+      "channels": {
+        "title": "多通道接入",
+        "desc": "Discord、iMessage、Signal、Slack、Telegram、WhatsApp、飞书等 20+ 通道"
+      },
+      "models": {
+        "title": "多模型支持",
+        "desc": "30+ 供应商，支持本地模型（Ollama / LM Studio）"
+      },
+      "agents": {
+        "title": "智能体系统",
+        "desc": "多智能体协作、上下文管理、记忆召回、会话压缩"
+      },
+      "extensions": {
+        "title": "扩展能力",
+        "desc": "技能市场（ClawHub）、插件系统、MCP 协议"
+      },
+      "automation": {
+        "title": "自动化",
+        "desc": "定时任务、Webhook、事件钩子、工作流编排"
+      },
+      "opensource": {
+        "title": "开源",
+        "desc": "核心代码开源，可自行审计"
+      }
+    }
+  },
+  "relationship": {
+    "title": "ClawMate + OpenClaw 的关系",
+    "quote": "OpenClaw 是引擎，ClawMate 是方向盘和仪表盘。",
+    "desc": "OpenClaw 负责所有底层能力，ClawMate 负责把这些能力以友好的方式呈现给用户。没有 OpenClaw，ClawMate 无法独立运行；没有 ClawMate，OpenClaw 只能通过命令行和配置文件使用。",
+    "points": {
+      "websocket": "ClawMate 通过 WebSocket 连接本地 OpenClaw Gateway",
+      "local": "所有数据流经本地 Gateway，ClawMate 只是控制平面和聊天界面",
+      "config": "OpenClaw 的配置文件（~/.openclaw/）完全由用户掌控"
+    }
+  },
+  "comparison": {
+    "title": "与同类产品的差异",
+    "subtitle": "三者都支持：多模型切换 · MCP 协议 · 技能/插件扩展 · 自动化任务 · 多智能体",
+    "headers": {
+      "dimension": "维度",
+      "clawmate": "ClawMate + OpenClaw",
+      "trae": "Trae Work",
+      "workbuddy": "WorkBuddy"
     },
-    "config": {
-      "title": "可视化配置",
-      "desc": "大模型、智能体、技能、通讯工具、沙箱，全部图形化管理，一目了然。"
+    "rows": {
+      "opensource": {
+        "label": "开源",
+        "clawmate": "OpenClaw 核心开源",
+        "trae": "闭源",
+        "workbuddy": "闭源"
+      },
+      "register": {
+        "label": "注册要求",
+        "clawmate": "无需注册，下载即用",
+        "trae": "需账号登录",
+        "workbuddy": "需腾讯云账号登录"
+      },
+      "data": {
+        "label": "数据收集",
+        "clawmate": "零收集，不联网回传任何数据",
+        "trae": "收集使用数据",
+        "workbuddy": "收集使用数据"
+      },
+      "runtime": {
+        "label": "运行方式",
+        "clawmate": "完全本地（Gateway 守护进程）",
+        "trae": "客户端 + 云端服务",
+        "workbuddy": "桌面客户端 + 云端服务"
+      },
+      "apikey": {
+        "label": "API Key 归属",
+        "clawmate": "用户自管，本地加密存储",
+        "trae": "平台托管",
+        "workbuddy": "平台托管"
+      },
+      "cloud": {
+        "label": "云依赖",
+        "clawmate": "无，不依赖任何官方云服务",
+        "trae": "依赖云端 AI 服务",
+        "workbuddy": "依赖腾讯云服务"
+      },
+      "pricing": {
+        "label": "定价",
+        "clawmate": "提供免费试用，激活授权",
+        "trae": "基础版免费，Pro 付费",
+        "workbuddy": "免费使用（企业版另议）"
+      },
+      "diff": {
+        "label": "核心差异化",
+        "clawmate": "隐私优先、开源可审计、数据完全自控",
+        "trae": "飞书生态深度集成、多端协同",
+        "workbuddy": "企业级安全审计、IM 远程遥控"
+      },
+      "scene": {
+        "label": "适用场景",
+        "clawmate": "注重隐私的个人/团队长期运行 AI 智能体",
+        "trae": "飞书生态团队协作办公",
+        "workbuddy": "企业办公自动化"
+      },
+      "im": {
+        "label": "多 IM 通道接入",
+        "clawmate": "支持 20+ IM 通道",
+        "trae": "不支持",
+        "workbuddy": "支持"
+      }
+    }
+  },
+  "privacy": {
+    "title": "你的数据，永远在你的电脑上",
+    "subtitle": "ClawMate 从设计之初就将隐私作为第一原则：",
+    "points": {
+      "noregister": {
+        "title": "无需注册账号",
+        "desc": "下载安装即用，不收集任何身份信息"
+      },
+      "zero": {
+        "title": "零数据收集",
+        "desc": "不联网回传任何使用数据、聊天记录、配置信息"
+      },
+      "local": {
+        "title": "完全本地运行",
+        "desc": "OpenClaw Gateway 运行在本地，所有 AI 交互通过本地进程完成"
+      },
+      "apikey": {
+        "title": "API Key 自管",
+        "desc": "你的模型 API Key 加密存储在本地，由你完全掌控"
+      },
+      "audit": {
+        "title": "开源可审计",
+        "desc": "OpenClaw 核心代码开源，可自行审计数据流向"
+      },
+      "nocloud": {
+        "title": "无云依赖",
+        "desc": "不依赖任何 ClawMate 官方云服务即可完整使用"
+      }
     },
-    "chat": {
-      "title": "AI 对话",
-      "desc": "内置聊天界面，直接与智能体对话，支持多会话管理与图片输入。"
-    },
-    "market": {
-      "title": "技能市场",
-      "desc": "搜索、安装、管理技能，一键启用，让智能体能力持续扩展。"
-    },
-    "messaging": {
-      "title": "通讯集成",
-      "desc": "飞书、QQ、Telegram、Slack、Discord、微信，统一配置管理。"
-    },
-    "sandbox": {
-      "title": "安全沙箱",
-      "desc": "Docker 沙箱可视化配置，权限精细控制，安全运行 AI 任务。"
+    "note": "唯一的网络请求是你主动调用 AI 模型供应商 API（如 OpenAI、Anthropic），直接从你的电脑发送到模型供应商，不经过任何中间服务器。"
+  },
+  "usecases": {
+    "title": "适用场景",
+    "items": {
+      "privacy": "注重隐私，不想把对话和数据交给云服务的个人/企业用户",
+      "longterm": "想要一个长期运行、跨多个 IM 通道的个人 AI 智能体",
+      "nogui": "想用 OpenClaw 但不想折腾命令行和配置文件的用户",
+      "automation": "需要 AI 智能体执行定时任务、自动化工作流"
     }
   },
   "download": {
     "title": "下载 ClawMate",
-    "subtitle": "支持 macOS 和 Windows，即刻开启体验",
+    "subtitle": "无需注册，下载即用",
     "mac_silicon": "macOS Apple Silicon",
     "mac_intel": "macOS Intel",
     "windows": "Windows",

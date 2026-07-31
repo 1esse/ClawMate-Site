@@ -1,3 +1,26 @@
+/* 自托管 Dancing Script 手写字体，避免依赖 Google Fonts CDN */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('~/assets/fonts/DancingScript-500.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('~/assets/fonts/DancingScript-600.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('~/assets/fonts/DancingScript-700.woff2') format('woff2');
+}
+
 :root {
   --color-bg: #0a0a0f;
   --color-bg-alt: #111827;

@@ -3,40 +3,200 @@
     "download": "Download"
   },
   "hero": {
-    "title": "AI Agent, Within Reach",
-    "subtitle": "ClawMate is the desktop manager for OpenClaw, making the powerful open-source AI Agent framework simple and accessible. Say goodbye to the command line.",
-    "cta": "Download Now"
+    "title": "The Desktop Client That Puts OpenClaw Within Reach",
+    "subtitle": "No registration, no data collection, fully local AI agent management software",
+    "cta": "Download Now",
+    "tag1": "No Registration",
+    "tag2": "Local Runtime",
+    "tag3": "Zero Data Collection"
   },
-  "features": {
-    "title": "Core Features",
-    "install": {
-      "title": "One-Click Install",
-      "desc": "Say goodbye to the command line. Install and initialize OpenClaw with a single click."
+  "clawmate": {
+    "title": "What is ClawMate",
+    "desc": "ClawMate is the desktop management client for OpenClaw (macOS / Windows). It transforms OpenClaw's complex command lines and config files into intuitive graphical operations:",
+    "positioning_label": "Positioning",
+    "positioning": "ClawMate is not another AI assistant — it is the control panel for OpenClaw.",
+    "features": {
+      "install": {
+        "title": "One-Click Runtime",
+        "desc": "Install / upgrade / uninstall the OpenClaw runtime with one click. No command line needed."
+      },
+      "config": {
+        "title": "Visual Management",
+        "desc": "Agents, models, skills, plugins, MCP servers — all managed visually."
+      },
+      "messaging": {
+        "title": "Channel Configuration",
+        "desc": "Feishu, Discord, Telegram, Slack, WeChat and 20+ channels, unified config."
+      },
+      "chat": {
+        "title": "Real-time Chat",
+        "desc": "Built-in streaming output, thought chain display, tool call visualization, multi-session."
+      },
+      "automation": {
+        "title": "Automation & Memory",
+        "desc": "Session management, scheduled tasks, memory system, sandbox config — all visual."
+      },
+      "cross_platform": {
+        "title": "Cross-Platform",
+        "desc": "Native support for macOS and Windows with a consistent experience."
+      }
+    }
+  },
+  "openclaw": {
+    "title": "What is OpenClaw",
+    "desc": "OpenClaw is an open-source multi-channel AI agent gateway that runs on any OS as a resident background daemon, featuring:",
+    "capabilities": {
+      "channels": {
+        "title": "Multi-Channel",
+        "desc": "Discord, iMessage, Signal, Slack, Telegram, WhatsApp, Feishu and 20+ channels"
+      },
+      "models": {
+        "title": "Multi-Model",
+        "desc": "30+ providers, supports local models (Ollama / LM Studio)"
+      },
+      "agents": {
+        "title": "Agent System",
+        "desc": "Multi-agent collaboration, context management, memory recall, session compression"
+      },
+      "extensions": {
+        "title": "Extensibility",
+        "desc": "Skill marketplace (ClawHub), plugin system, MCP protocol"
+      },
+      "automation": {
+        "title": "Automation",
+        "desc": "Scheduled tasks, webhooks, event hooks, workflow orchestration"
+      },
+      "opensource": {
+        "title": "Open Source",
+        "desc": "Core code is open source, self-auditable"
+      }
+    }
+  },
+  "relationship": {
+    "title": "ClawMate + OpenClaw",
+    "quote": "OpenClaw is the engine. ClawMate is the steering wheel and dashboard.",
+    "desc": "OpenClaw handles all underlying capabilities, while ClawMate presents them to users in a friendly way. Without OpenClaw, ClawMate cannot run independently; without ClawMate, OpenClaw can only be used via command line and config files.",
+    "points": {
+      "websocket": "ClawMate connects to the local OpenClaw Gateway via WebSocket",
+      "local": "All data flows through the local Gateway — ClawMate is just the control plane and chat UI",
+      "config": "OpenClaw's config files (~/.openclaw/) are fully under user control"
+    }
+  },
+  "comparison": {
+    "title": "How It Compares",
+    "subtitle": "All three support: multi-model switching · MCP protocol · skill/plugin extensions · automation · multi-agent",
+    "headers": {
+      "dimension": "Dimension",
+      "clawmate": "ClawMate + OpenClaw",
+      "trae": "Trae Work",
+      "workbuddy": "WorkBuddy"
     },
-    "config": {
-      "title": "Visual Configuration",
-      "desc": "Manage LLMs, agents, skills, messaging tools, and sandboxes — all in a graphical interface."
+    "rows": {
+      "opensource": {
+        "label": "Open Source",
+        "clawmate": "OpenClaw core is open source",
+        "trae": "Closed source",
+        "workbuddy": "Closed source"
+      },
+      "register": {
+        "label": "Registration",
+        "clawmate": "No registration, download and use",
+        "trae": "Account login required",
+        "workbuddy": "Tencent Cloud account required"
+      },
+      "data": {
+        "label": "Data Collection",
+        "clawmate": "Zero collection, no data sent back",
+        "trae": "Collects usage data",
+        "workbuddy": "Collects usage data"
+      },
+      "runtime": {
+        "label": "Runtime",
+        "clawmate": "Fully local (Gateway daemon)",
+        "trae": "Client + cloud services",
+        "workbuddy": "Desktop client + cloud services"
+      },
+      "apikey": {
+        "label": "API Key Ownership",
+        "clawmate": "User-managed, encrypted locally",
+        "trae": "Platform-managed",
+        "workbuddy": "Platform-managed"
+      },
+      "cloud": {
+        "label": "Cloud Dependency",
+        "clawmate": "None, no official cloud service required",
+        "trae": "Depends on cloud AI services",
+        "workbuddy": "Depends on Tencent Cloud"
+      },
+      "pricing": {
+        "label": "Pricing",
+        "clawmate": "Free trial, license activation",
+        "trae": "Basic free, Pro paid",
+        "workbuddy": "Free (enterprise plan separate)"
+      },
+      "diff": {
+        "label": "Key Differentiator",
+        "clawmate": "Privacy-first, open-source auditable, full data control",
+        "trae": "Deep Feishu integration, multi-device collaboration",
+        "workbuddy": "Enterprise security audit, IM remote control"
+      },
+      "scene": {
+        "label": "Use Case",
+        "clawmate": "Privacy-conscious individuals/teams running AI agents long-term",
+        "trae": "Feishu ecosystem team collaboration",
+        "workbuddy": "Enterprise office automation"
+      },
+      "im": {
+        "label": "Multi-IM Channels",
+        "clawmate": "Supports 20+ IM channels",
+        "trae": "Not supported",
+        "workbuddy": "Supported"
+      }
+    }
+  },
+  "privacy": {
+    "title": "Your Data Stays on Your Computer",
+    "subtitle": "ClawMate was designed with privacy as the first principle:",
+    "points": {
+      "noregister": {
+        "title": "No Account Required",
+        "desc": "Download, install, and use — no identity information collected"
+      },
+      "zero": {
+        "title": "Zero Data Collection",
+        "desc": "No usage data, chat logs, or configuration sent back over the network"
+      },
+      "local": {
+        "title": "Fully Local",
+        "desc": "OpenClaw Gateway runs locally; all AI interactions happen via local processes"
+      },
+      "apikey": {
+        "title": "Self-Managed API Keys",
+        "desc": "Your model API keys are encrypted and stored locally, fully under your control"
+      },
+      "audit": {
+        "title": "Open-Source Auditable",
+        "desc": "OpenClaw's core code is open source — audit the data flow yourself"
+      },
+      "nocloud": {
+        "title": "No Cloud Dependency",
+        "desc": "No ClawMate cloud service required for full functionality"
+      }
     },
-    "chat": {
-      "title": "AI Chat",
-      "desc": "Built-in chat interface. Talk to agents directly with multi-session and image input support."
-    },
-    "market": {
-      "title": "Skill Market",
-      "desc": "Search, install, and manage skills. Enable them with one click to extend agent capabilities."
-    },
-    "messaging": {
-      "title": "Messaging Integration",
-      "desc": "Feishu, QQ, Telegram, Slack, Discord, WeChat — unified configuration management."
-    },
-    "sandbox": {
-      "title": "Secure Sandbox",
-      "desc": "Visual Docker sandbox configuration with fine-grained permission control for safe AI execution."
+    "note": "The only network requests are when you actively call AI model provider APIs (e.g., OpenAI, Anthropic) — sent directly from your computer to the provider, passing through no intermediate servers."
+  },
+  "usecases": {
+    "title": "Use Cases",
+    "items": {
+      "privacy": "Privacy-conscious individuals/enterprises who don't want to hand conversations and data to cloud services",
+      "longterm": "Anyone wanting a long-running personal AI agent across multiple IM channels",
+      "nogui": "Users who want to use OpenClaw without wrestling with command lines and config files",
+      "automation": "Teams that need AI agents to execute scheduled tasks and automated workflows"
     }
   },
   "download": {
     "title": "Download ClawMate",
-    "subtitle": "Available for macOS and Windows. Start your journey today.",
+    "subtitle": "No registration required — download and use",
     "mac_silicon": "macOS Apple Silicon",
     "mac_intel": "macOS Intel",
     "windows": "Windows",

@@ -2,6 +2,10 @@
   <div>
     <HeroSection />
     <FeaturesSection />
+    <WhatIsOpenClaw />
+    <RelationshipSection />
+    <ComparisonTable />
+    <UseCasesSection />
     <DownloadSection />
   </div>
 </template>
@@ -15,7 +19,7 @@ useHead({
     { name: 'description', content: t('hero.subtitle') },
     { property: 'og:title', content: t('hero.title') + ' — ClawMate' },
     { property: 'og:description', content: t('hero.subtitle') },
-    { property: 'og:image', content: 'https://clawmate.dev/og-image.png' },
+    { property: 'og:image', content: 'https://clawmate.site/og-image.png' },
     { name: 'twitter:title', content: t('hero.title') + ' — ClawMate' },
     { name: 'twitter:description', content: t('hero.subtitle') },
   ],

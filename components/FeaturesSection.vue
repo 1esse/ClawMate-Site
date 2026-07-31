@@ -1,7 +1,8 @@
 <template>
   <section class="features animate-on-scroll" id="features">
     <div class="features__inner">
-      <h2 class="features__title">{{ $t('features.title') }}</h2>
+      <h2 class="features__title">{{ $t('clawmate.title') }}</h2>
+      <p class="features__desc">{{ $t('clawmate.desc') }}</p>
       <div class="features__grid">
         <div
           v-for="(item, index) in featureList"
@@ -10,9 +11,13 @@
           :style="{ '--stagger': index }"
         >
           <div class="feature-card__icon" v-html="item.icon" />
-          <h3 class="feature-card__title">{{ $t(`features.${item.key}.title`) }}</h3>
-          <p class="feature-card__desc">{{ $t(`features.${item.key}.desc`) }}</p>
+          <h3 class="feature-card__title">{{ $t(`clawmate.features.${item.key}.title`) }}</h3>
+          <p class="feature-card__desc">{{ $t(`clawmate.features.${item.key}.desc`) }}</p>
         </div>
+      </div>
+      <div class="features__positioning animate-on-scroll">
+        <span class="features__positioning-label">{{ $t('clawmate.positioning_label') }}</span>
+        <span class="features__positioning-text">{{ $t('clawmate.positioning') }}</span>
       </div>
     </div>
   </section>
@@ -29,20 +34,20 @@ const featureList = [
     icon: '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>',
   },
   {
-    key: 'chat',
-    icon: '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>',
-  },
-  {
-    key: 'market',
-    icon: '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>',
-  },
-  {
     key: 'messaging',
     icon: '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>',
   },
   {
-    key: 'sandbox',
-    icon: '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>',
+    key: 'chat',
+    icon: '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>',
+  },
+  {
+    key: 'automation',
+    icon: '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>',
+  },
+  {
+    key: 'cross_platform',
+    icon: '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>',
   },
 ]
 </script>
@@ -62,8 +67,17 @@ const featureList = [
   font-size: 2.5rem;
   font-weight: 600;
   color: #fff;
-  margin: 0 0 4rem;
+  margin: 0 0 1.5rem;
   letter-spacing: -0.025em;
+}
+
+.features__desc {
+  text-align: center;
+  font-size: 1.125rem;
+  color: #9ca3af;
+  line-height: 1.75;
+  max-width: 48rem;
+  margin: 0 auto 4rem;
 }
 
 .features__grid {
@@ -132,6 +146,30 @@ const featureList = [
   margin: 0;
 }
 
+.features__positioning {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.features__positioning-label {
+  font-size: 0.875rem;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.features__positioning-text {
+  font-size: 1.25rem;
+  color: #d1d5db;
+  font-weight: 500;
+}
+
 @media (max-width: 64rem) {
   .features__grid {
     grid-template-columns: repeat(2, 1fr);
@@ -149,7 +187,16 @@ const featureList = [
 
   .features__title {
     font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .features__desc {
+    font-size: 1rem;
     margin-bottom: 2.75rem;
+  }
+
+  .features__positioning-text {
+    font-size: 1.0625rem;
   }
 }
 </style>
