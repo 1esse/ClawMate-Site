@@ -24,6 +24,7 @@
         </svg>
       </div>
 
+
       <!-- 下方内容：纯 CSS 延迟动画 -->
       <h1 class="hero__title" style="--d: 2s">{{ $t('hero.title') }}</h1>
       <p class="hero__subtitle" style="--d: 2.1s">{{ $t('hero.subtitle') }}</p>
@@ -136,6 +137,7 @@ const privacyPoints = [
 }
 
 .hero__brand-text {
+  font-family: "Dancing Script", "Apple Chancery", "Segoe Script", cursive;
   fill: url(#brandGrad);
   fill-opacity: 0;
   stroke: url(#brandGrad);
@@ -145,7 +147,6 @@ const privacyPoints = [
   animation: drawBrand 2.5s ease-in-out 0.5s forwards;
 }
 
-/* 下方内容：纯 CSS 延迟动画 */
 .hero__title,
 .hero__subtitle,
 .hero__badges,

@@ -32,10 +32,14 @@ function scrollToDownload() {
 }
 
 onMounted(() => {
-  requestAnimationFrame(() => { visible.value = true })
+  // 延迟显示，与 Hero 下方内容（--d: 2s）同步，等 ClawMate 标题动画进入上色阶段再出现
+  const timer = setTimeout(() => { visible.value = true }, 2000)
   const onScroll = () => { scrolled.value = window.scrollY > 20 }
   window.addEventListener('scroll', onScroll, { passive: true })
-  onUnmounted(() => window.removeEventListener('scroll', onScroll))
+  onUnmounted(() => {
+    clearTimeout(timer)
+    window.removeEventListener('scroll', onScroll)
+  })
 })
 </script>
 

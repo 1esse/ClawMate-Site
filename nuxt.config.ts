@@ -35,7 +35,17 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/i18n',
     '@nuxtjs/sitemap',
+    '@nuxt/fonts',
   ],
+
+  // @nuxt/fonts 配置：使用 local provider 自动扫描 public/fonts/ 下的字体文件，
+  // 当 CSS 中使用 font-family: 'Dancing Script' 时自动生成 @font-face 声明并注入预加载
+  fonts: {
+    providers: {
+      google: false,
+      googleicons: false,
+    },
+  },
 
   i18n: {
     locales: [
